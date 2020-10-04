@@ -44,15 +44,14 @@ sr.reveal('.about__img',{});
 sr.reveal('.about__subtitle',{delay: 200}); 
 sr.reveal('.about__text',{delay: 200}); 
 
-/*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle',{}); 
-sr.reveal('.skills__text',{});
-sr.reveal('.skills__name',{});
-sr.reveal('.skills__data',{interval: 100}); 
-sr.reveal('.skills__img',{});
+/*SCROLL projects*/
+sr.reveal('.projects__subtitle',{}); 
+sr.reveal('.projects__text',{}); 
+sr.reveal('.projects__name',{interval: 200}); 
+sr.reveal('.projects__img',{delay: 600});
 
 /*SCROLL WORK*/
-sr.reveal('.lastestpost__img',{interval: 100}); 
+sr.reveal('.lastestpost__img',{interval: 200}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
