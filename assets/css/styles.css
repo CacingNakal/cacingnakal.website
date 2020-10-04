@@ -287,11 +287,7 @@ img{
   width: 400px;
   border-radius: .5rem;
 }
-.skills__imgcapt{
-  position: absolute;
-  margin-right: 0;
-  margin-bottom: 0;
-}
+
 /* ===== Lastest Post =====*/
 .lastestpost{
     background-color: var(--white-color);
