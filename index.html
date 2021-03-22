@@ -1,12 +1,181 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Cacing Nakal</title>
-<link rel="stylesheet" href="assets/css/test.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal website-nya Cacing Nakal, seorang self-learner yang tertarik dengan banyak hal"/>
 
-<body>
-<img src="assets/img/new.png">
-</body>
+        <link rel="icon" href="assets/img/cacingnakalicon.svg" type="image/svg">
 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Cacing Nakal</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Cacing Nakal</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#lastestpost" class="nav__link">Recent Post</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'am <span class="home__title-color">Cacing Nakal</span><br>a Professional Dumbass</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.instagram.com/cacingnakal_/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/itsnothabib" target="_blank" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/profile.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.png">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Cacing</h2>
+                        <p class="about__text">Seorang self-learner yang tertarik dengan banyak hal, mulai dari Filmmaking, Programing sampai Branding. Mencoba meneriakkan eksistensiku didunia ini melalui konten yang ku buat</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== PROJECTS =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects__container bd-grid">          
+                    <div>
+                        <h2 class="projects__subtitle">Blog</h2>
+                        <p class="projects__text">The place where i can post whatever the f##ck i want.</p>
+                        <span class="projects__name"><a href="https://medium.com/@CacingNakal" target="_blank">Medium</a></span>
+                        <h2 class="projects__subtitle">Jadi Gini Podcast</h2>
+                        <p class="projects__text">Platform untuk membahas isu-isu dan fenomena sosial yang ada disekitar anak muda dari sudut pandang seorang cacing.</p>
+                    	<span class="projects__name"><a href="https://open.spotify.com/show/2rSiLHNijPVAsVOvQQJZZS" target="_blank">Spotify</a></span>
+                        <span class="projects__name"><a href="https://podcasts.apple.com/us/podcast/jadi-gini-podcast/id1533759652" target="_blank">Apple Podcast</a></span>
+                        <span class="projects__name"><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zNjhjMWE4Yy9wb2RjYXN0L3Jzcw==" target="_blank">Google Podcast</a> </span>
+                        <span class="projects__name"><a href="https://linktr.ee/JadiGiniPodcast" target="_black">More</a></span>
+                    </div>    
+                    <div>              
+                        <img src="assets/img/projects.png" title="photo by @pramud.n" alt="photo by @pramud.n" class="projects__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== LASTEST POST =====-->
+            <section class="lastestpost section" id="lastestpost">
+                <h2 class="section-title">Recent Post</h2>
+
+                <div class="lastestpost__container bd-grid">
+                    <div class="lastestpost__img">
+                        <img src="assets/img/post1.jpg" alt="">
+
+                        <div class="lastestpost__link">
+                            <a href="https://open.spotify.com/episode/2lZ0AxJi8u2UVR61mV9iBa" target="_blank" class="lastestpost__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="lastestpost__img">
+                        <img src="assets/img/post2.jpg" alt="">
+
+                        <div class="lastestpost__link">
+                            <a href="https://open.spotify.com/episode/4xN7wQGFbivHz3ASPGUfXv" target="_blank" class="lastestpost__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="lastestpost__img">
+                        <img src="assets/img/post3.jpg" alt="">
+
+                        <div class="lastestpost__link">
+                            <a href="https://open.spotify.com/episode/3Ky64PZ9G14DkZ1IlBDNv2" target="_blank" class="lastestpost__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="lastestpost__img">
+                        <img src="assets/img/post4.jpg" alt="">
+
+                        <div class="lastestpost__link">
+                            <a href="https://medium.com/@CacingNakal/masalah-pembajakan-di-indonesia-2a2d35ceeaad" target="_blank" class="lastestpost__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="lastestpost__img">
+                        <img src="assets/img/post5.jpg" alt="">
+
+                        <div class="lastestpost__link">
+                            <a href="https://medium.com/@CacingNakal/sedikit-pandanganku-soal-hidup-ff3e7ddd833e" target="_blank" class="lastestpost__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="lastestpost__img">
+                        <img src="assets/img/post6.jpg" alt="">
+
+                        <div class="lastestpost__link">
+                            <a href="https://medium.com/@CacingNakal/alternatif-aplikasi-software-gratis-untuk-mahasiswa-7ff66811e80f" target="_blank" class="lastestpost__link-name">View details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+                    <form action="POST" data-netlify="true" class="contact__form">
+                        <input type="text" name="name" placeholder="Name" class="contact__input" />
+                        <input type="email" name="name" placeholder="Email" class="contact__input"/>
+                        <textarea name="message" id="message" placeholder="Message" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Cacing Nakal</p>
+            <div class="footer__social">
+                <a href="https://www.instagram.com/cacingnakal_/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' style="color:#ffffff;"></i></a>
+                <a href="https://twitter.com/itsnothabib" target="_blank" class="home__social-icon"><i class='bx bxl-twitter' style="color:#ffffff;"></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-linkedin' style="color:#ffffff;"></i></a>
+            </div>
+            <p>Made by Cacing on Earth</p>
+            <p>&#169; 2020 Cacing Nakal</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
